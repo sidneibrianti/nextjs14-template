@@ -37,6 +37,8 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "tailwindcss/classnames-order": "off",    
     "no-unused-vars": [
       "error",
       { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
