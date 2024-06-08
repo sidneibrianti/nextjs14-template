@@ -1,4 +1,4 @@
-import { ModeToggle } from '@/components/modetoggle/modetoggle';
+import { ModeToggle } from '@/shared/components/modetoggle/modetoggle';
 
 export default function Home() {
   return (
@@ -15,16 +15,16 @@ export default function Home() {
         <div className="flex h-20 items-center justify-center rounded  bg-secondary px-5 text-secondary-foreground">
           Secondary
         </div>
-        <div className="bg-danger text-danger-foreground flex h-20 items-center justify-center rounded  px-5">
+        <div className="flex h-20 items-center justify-center rounded bg-danger px-5  text-danger-foreground">
           Danger
         </div>
-        <div className="bg-warning text-warning-foreground flex h-20 items-center justify-center rounded  px-5">
+        <div className="flex h-20 items-center justify-center rounded bg-warning px-5  text-warning-foreground">
           Warning
         </div>
-        <div className="bg-success text-success-foreground flex h-20 items-center justify-center rounded  px-5">
+        <div className="flex h-20 items-center justify-center rounded bg-success px-5  text-success-foreground">
           Success
         </div>
-        <div className="bg-info text-info-foreground flex h-20 items-center justify-center rounded  px-5">
+        <div className="flex h-20 items-center justify-center rounded bg-info px-5  text-info-foreground">
           Info
         </div>
         <div className=" flex h-20 items-center justify-center rounded  bg-accent px-5 text-accent-foreground">

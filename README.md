@@ -12,3 +12,21 @@ npx create-next-app@latest --example https://github.com/sidneibrianti/nextjs14-t
 ## Dica
 
  Para iniciar, selecione o esquema de cores desejado que pretende aplicar. Após definir as cores, acesse o endereço [http://localhost:3000/](http://localhost:3000/) para realizar os testes. Esse passo é fundamental para assegurar que o tema escolhido se adapte perfeitamente à interface, proporcionando uma experiência visual harmoniosa e agradável aos usuários.
+
+## Comandos
+
+```bash
+npm run dev
+```
+
+```bash
+npn run eslint:format
+```
+
+```bash
+npm run prettier:format
+```
+
+```bash
+npm run prettier:check
+```
